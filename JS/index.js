@@ -6,9 +6,7 @@ function hello(){
     //console.log(a)
     console.log(b)
 }
-hello()
-
-
+//hello()
 
 /*
 let a = 2;
@@ -20,3 +18,6 @@ var b = 3; // redeclaration is possible
 const c = 3;
 c = 4; // cannot be reassigned and redeclared
 */
+
+//<--------------------------------------------------------------------------------------------------------------->
+
