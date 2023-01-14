@@ -3,8 +3,13 @@
 
 # dependencies
 /React/hello-world/node_modules
-/React/hello-world/pnp
-/React/hello-world/pnp.js
 
+/React/calender/node_modules
+
+/React/to-do/node_modules
 # testing
 /React/hello-world/coverage
+/React/calender/coverage
+
+#working
+/React/calender
