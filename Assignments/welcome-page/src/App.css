@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Toto&display=swap");
+* {
+  font-family: "Noto Serif Toto", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.greeting-container {
+  background-color: #4b83cd;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  color: aliceblue;
+  margin: 5%;
+}
+.greeting-container > button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-top: 10%;
+  border-radius: 10px;
+  background-color: rgb(49, 160, 51);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login-container {
+  background-color: #0d6efd;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 5%;
+}
+.login-container > p {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+.login-container > div {
+  margin-left: 10px;
+}
+.login-container > div > input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.login-container > div > button {
+  border: none;
+  outline: none;
+  font-weight: bold;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(49, 160, 51);
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 483px) {
+  .login-container > div > input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .login-container > div > button {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
