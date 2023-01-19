@@ -24,4 +24,5 @@ Welcome message should be as given in the Details section.
 
 Use of functional component.
 
-#Assignment Gif
+# Assignment Gif
+![](https://github.com/vijay-kumar-yadav/PEP-External-Reactjs/blob/main/Assignments/Assignment%20Video/welcome-page.gif)
