@@ -1,0 +1,18 @@
+.error {
+  color: red;
+}
+.form-container {
+  margin: 30px;
+}
+form,
+div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+td,
+th {
+  padding: 15px;
+  border: 2px solid black;
+}

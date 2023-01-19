@@ -86,30 +86,15 @@ c = 4; // cannot be reassigned and redeclared
 // // a.slice();
 //<--------------------------------------------------------------------------------------------------------------->
 //closures
-// function makeCounter() {
-//   let x = 0;
-//   return function () {
-//     // console.log("-->", x);
-//     return x++;
-//   };
-// }
-// let counter = makeCounter();
-
-// console.log(counter()); //0
-// console.log(counter()); //1
-// console.log(counter()); //2
-
-//<--------------------------------------------------------------------------------------------------------------->
-//object
-function car(engine, color, model, company) {
-  this.engine = engine;
-  this.color = color;
-  this.model = model;
-  this.company = company;
+function makeCounter() {
+  let x = 0;
+  return function () {
+    console.log(x);
+    return x++;
+  };
 }
+let counter = makeCounter();
 
-car.prototype.nationaliy = "American";
-let a = new car("123131", "red", "r9", "Nissan");
-let b = new car("123342", "grey", "r10", "Suzuki");
-console.log(a.nationaliy);
-console.log(b);
+console.log(counter()); //0
+console.log(counter()); //1
+console.log(counter()); //2
