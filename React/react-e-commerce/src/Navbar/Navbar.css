@@ -1,0 +1,8 @@
+.navbar-container {
+  display: flex;
+  height: 7.5%;
+  width: 100%;
+  background-color: #fff;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
