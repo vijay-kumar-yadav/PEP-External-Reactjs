@@ -16,4 +16,4 @@
 
 # Assignment Gif
 
-![](https://raw.githubusercontent.com/vijay-kumar-yadav/PEP-External-Reactjs/main/Assignments/Counter%20Application/Assignment%20Video/counterApplication.gif)
+![](https://raw.githubusercontent.com/vijay-kumar-yadav/PEP-External-Reactjs/main/Assignments/Counter%20Application/Assignment%20Video/counter_Application.gif)
