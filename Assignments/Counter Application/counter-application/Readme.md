@@ -1,4 +1,4 @@
-#WRITE A REACT APPLICATION FOR A COUNTER APPLICATION USING useState().
+# WRITE A REACT APPLICATION FOR A COUNTER APPLICATION USING useState().
 1. Must use semantic-ui-react package
    https://react.semantic-ui.com/
 2. Must use useState()
