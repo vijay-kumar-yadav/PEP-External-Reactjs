@@ -8,4 +8,4 @@ Create a counter application that counts from 0 to 10. The application will have
 
 # Hosted Link
 
-![counter-application-upgrade](https://counter-application-upgrade.netlify.app/)
+https://counter-application-upgrade.netlify.app/
